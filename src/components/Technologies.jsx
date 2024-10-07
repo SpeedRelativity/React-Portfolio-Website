@@ -20,7 +20,7 @@ const Technologies = () => {
   const [selectedTechnology, setSelectedTechnology] = useState(null);
   const [modalImage, setModalImage] = useState(null);
 
-  // Merged technologies array
+  
   const technologies = [
     // Languages
     { name: 'C++', icon: <SiCplusplus className='text-7xl text-blue-600' /> },

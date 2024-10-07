@@ -34,7 +34,7 @@ const Experience = () => {
     <div className="border-b border-neutral-800 pb-24">
       <h1 className="my-20 text-center text-4xl">Education & Work Experience</h1>
       <div className="relative mx-auto w-full lg:w-2/3">
-        {/* Timeline vertical line */}
+        
         <div className="absolute left-1/2 hidden h-full w-1 -translate-x-1/2 transform bg-neutral-700 lg:block"></div>
 
         {/* Timeline items */}
@@ -45,14 +45,14 @@ const Experience = () => {
               index % 2 === 0 ? 'lg:flex-row-reverse' : ''
             }`}
           >
-            {/* Icon for small screens on the left */}
+            
             <div className="flex items-center justify-center sm:mr-4 lg:mr-0">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-neutral-800 shadow-lg">
                 {experience.icon}
               </div>
             </div>
 
-            {/* Content for small screens aligned with the icon */}
+            
             <div className="lg:w-5/12 bg-neutral-900 p-4 rounded-lg shadow-lg">
               <p className="mb-1 text-sm text-neutral-400">{experience.year}</p>
               <h3 className="mb-1 text-xl font-semibold">{experience.title}</h3>

@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/profilePic.png";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll"; // Import Link from react-scroll
+import { Link } from "react-scroll"; 
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -42,7 +42,7 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            {/* Updated Button */}
+            
             <motion.div
               variants={container(1.5)}
               initial="hidden"
